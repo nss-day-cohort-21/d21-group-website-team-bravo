@@ -53,8 +53,32 @@ NAVIGATION
  	width: 30%;
  	margin: 30px;
     list-style: none;
+  }
     
- 
+
+
+.card {
+  border: 2px solid black;
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+
+ }
+
+ p.card {
+  font-family: 'Lato', sans-serif;
+  font-size: 12em;
+ }
+
+.flex-container {
+  display: inline-flex; /* or inline-flex */
+  flex-direction: row | row-reverse | column | column-reverse;
+  margin: 4px;
+  padding: 4px;
+
+}
+
+
 
 
 
@@ -72,6 +96,7 @@ PAGE; HOME
 /*******************************************************
 PAGE: MENU;
 ********************************************************/
+/*need cards in grid, add borders, change font*/
 
 
 
