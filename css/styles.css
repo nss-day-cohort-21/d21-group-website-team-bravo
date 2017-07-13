@@ -10,6 +10,55 @@ NAVIGATION
 ********************************************************/
 
 
+  
+  
+
+.nav ul {
+    float: left;
+    list-style-type: none;
+    width: 100%
+  
+}
+
+  
+
+.nav li a {  
+  padding: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  float: left;
+}
+.nav li a:hover {
+  color: white;
+  background-color:green;
+}
+
+.navBar {
+     width: 100%;
+
+}
+.nav{
+    width: 100%;
+}
+.ContactInfo {
+ 	display: flex;
+ 	display: -webkit-flex;
+ 	width: 100%;
+ 	
+
+}
+
+.Contact {
+ 	width: 30%;
+ 	margin: 30px;
+    list-style: none;
+    
+ 
+
+
+
 
 
 
