@@ -51,19 +51,31 @@ menu = [
 
 
 
+let menuDiv = document.getElementById("menu");
 
-	let menuDiv = document.getElementById("menu")
 	function menuItem() {
+	
 		menu.forEach(function(item){
-			console.log(item.title);
-			menuItem = `<h1>${item.title}</h1>
-		<img src="${item.image}">
-		<p>${item.description}</p>
-		<p>${item.price}</p>`;
-			console.log(menuItem);
-		});
+			
+			let card = `<div class="card">
+				<h1>${item.title}</h1>
+				<img src="${item.img}">
+				<p>${item.description}</p>
+				<p>${item.price}</p></div>`;
 
+			menuDiv.innerHTML += card;
+			
+
+	});
 }
+
+	
+menuItem();
+	
+
+		
+
+
 
 
 
@@ -88,9 +100,9 @@ menu = [
 // eventlistener
 // menu =document.getElementById("menu");
 
-menuItem = `<h1>${item.title}</h1>
-		<img src="${item.image}">
-		<p>${item.description}</p>
-		<p>${item.price}</p>`;
+// menuItem = `<h1>${item.title}</h1>
+// 		<img src="${item.image}">
+// 		<p>${item.description}</p>
+// 		<p>${item.price}</p>`;
 
-menu.innerHTML += menuItem;
+// menu.innerHTML += menuItem;
